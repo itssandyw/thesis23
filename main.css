@@ -1,0 +1,283 @@
+body{
+      width: auto;
+      height: auto;
+}
+a{
+	text-decoration: none;
+}
+#section1{
+	position: relative;
+	padding: 10% 10%;
+	height: 100vh;
+  	background: linear-gradient(-45deg, #132766, #183180, #2c5c9c, #5483b3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}	
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		} 
+}
+#section1 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	text-align: left;
+	color: #e0d4cb;
+}
+#section1 h2{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: right;
+	color: #e0d4cb;
+}
+#section1 h3{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: left;
+	color: #e0d4cb;
+}
+#section1 h3:hover{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: left;
+	color: #e0d4cb;
+}
+#section2{
+	background-color: #FFFFFF;
+	position: relative;
+	padding: 15% 10%;
+	height: 100vh;
+}
+#section2:hover{
+	background-color: #A8BF77;
+}
+#section2 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: left;
+	color: #8E2927;
+	font-stretch: normal;
+}
+#section2 h1:hover{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 90px;
+	text-align: right;
+	color: #E72522;
+	font-stretch: expanded;
+	animation: beat 0.5s ease-out infinite;
+}
+	@keyframes beat {
+  		0% {
+    			transform: scale(1);
+  		}
+  		50% {
+    			transform: scale(1.3);
+  		}
+  		100% {
+    			transform: scale(1);
+  		}
+	}
+#section3{
+ 	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 aspect ratio */	
+  	background: linear-gradient(-45deg, #c2bfcc, #020202, #c2bfcc, #cdc764);
+	background-size: 400% 400%;
+	animation: gradient 0.3s ease infinite;
+}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}	
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+#section3 marquee{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+    	color: #E72522;
+}
+#section3 iframe {
+ 	position: absolute;
+ 	top: 5%;
+ 	right: 5%;
+	left: 5%;
+  	width: 90%;
+  	height: 90%;
+}
+#section4{
+	background-color: #6A6A6A;
+	position: relative;
+	padding: 15% 10%;
+	height: 100vh;
+}
+#section4 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: left;
+	color: #8E2927;
+	font-stretch: normal;
+}
+#section4 h1:hover{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: right;
+	opacity: 50%;
+	font-stretch: expanded;
+	animation: beat 1s ease-out infinite;
+}
+	@keyframes beat {
+  		0% {
+    			transform: scale(1.3);
+  		}
+  		50% {
+    			transform: scale(1);
+  		}
+  		100% {
+    			transform: scale(1.3);
+  		}
+	}
+#section5{
+ 	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  	background: linear-gradient(-45deg, #c2bfcc, #020202, #c2bfcc, #cdc764);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}	
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+#section5 marquee{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+    	color: #E72522;
+}
+#section5 video {
+ 	position: absolute;
+ 	top: 5%;
+ 	right: 5%;
+	left: 5%;
+  	width: 90%;
+  	height: 90%;
+}
+#section6{
+	position: relative;
+	padding: 5% 10%;
+	height: 100vh;
+  	background: linear-gradient(-45deg, #132766, #183180, #2c5c9c, #5483b3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}	
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		} 
+}
+#section6 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 90px;
+	text-align: left;
+	color: #e0d4cb;
+	animation: fadeIn 90s;
+}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0%;
+		}	
+		100% {
+			opacity: 100%;
+		} 
+}
+#section6 h2{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 90px;
+	text-align: right;
+	color: #e0d4cb;
+	animation: fadeIn 120s;
+}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0%;
+		}	
+		100% {
+			opacity: 100%;
+		} 
+}
+#section7{
+ 	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  	background: linear-gradient(-45deg, #132766, #183180, #2c5c9c, #5483b3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}	
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		} 
+}
+#section7 video {
+ 	position: absolute;
+ 	top: 5%;
+ 	right: 5%;
+	left: 5%;
+  	width: 90%;
+  	height: 90%;
+}
+
+
+
+
+
